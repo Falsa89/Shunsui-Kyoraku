@@ -30,7 +30,7 @@ elseif (strpos($text, "determin") !== false)
 {
 	$response = " Dato che sei così determinato, è stato scortese da parte mia cercare di dissuaderti. Mi scuso . Molto bene allora. Non ho altra scelta che toglierti la vita.";
 }
-elseif (strpos($text, "apett") !== false)
+elseif (strpos($text, "aspett") !== false)
 {
 	$response = "Aspettare pazientemente e credere nei propri subordinati fa parte del lavoro di un capitano. ";
 }
