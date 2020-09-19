@@ -30,15 +30,11 @@ elseif (strpos($text, "determin") !== false)
 {
 	$response = " Dato che sei così determinato, è stato scortese da parte mia cercare di dissuaderti. Mi scuso . Molto bene allora. Non ho altra scelta che toglierti la vita.";
 }
-elseif (strpos($text, "aspett") !== false)
+elseif (strpos($text, "aspettare") !== false)
 {
 	$response = "Aspettare pazientemente e credere nei propri subordinati fa parte del lavoro di un capitano. ";
 }
-elseif (strpos($text, "ragazza") !== false)
-{
-	$response = "Bene, tu sei il membro più giovane della squadra. E non potrei mai dimenticare il nome di una ragazza carina";
-}
-if (strpos($text, "natura") !== false) 
+if (strpos($text, "gentiluomo") !== false) 
 {
 	$response = "Va contro la mia natura diventare duro con le donne. Mi reputo un gentiluomo.";
 }
@@ -62,32 +58,7 @@ elseif (strpos($text, "dolore") !== false)
 	$response = "Anch'io preferirei fare così. Non mi piace il dolore. Però stavolta non possiamo proprio permettercelo";
 
 }
-elseif (strpos($text, "dolce") !== false)
-{
-	$response = "Dolce, dolce Nanao-chan. Lovely, lovely Nanao-chan...";
 
-}
-elseif (strpos($text, "bambina") !== false)
-{
-	$response = "Quella bambina con te ... Puoi mandarla da qualche altra parte? Non posso davvero uscire con lei .";
-}
-elseif (strpos($text, "freddo") !== false)
-{
-	$response = "Perché così freddo, Nanao-chan?";
-}
-elseif (strpos($text, "erba") !== false)
-{
-	$response = "Ho messo questo filo d'erba in bocca pensando che avrei avuto un bell'aspetto. Ma deve essere avvelenato perché ha la bocca insensibile.
-";
-}
-elseif (strpos($text, "buongiorno") !== false)
-{
-	$response = "Buongiornoo!";
-}
-elseif (strpos($text, "buonasera") !== false)
-{
-	$response = "Buonasera, andiamo a bere qualosa insieme ?";
-}
 elseif (strpos($text, "ciao") !== false)
 {
 	$response = "ciaoo";
